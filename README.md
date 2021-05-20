@@ -23,9 +23,9 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [Lista de requisitos](#lista-de-requisitos)
     - [1 - Crie testes para uma função assíncrona](#1---crie-testes-para-uma-função-assíncrona)
-    - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2---Crie-um-"Mock"-no-arquivo-test/mockFunctions.spec.js)
-    - [3 - Crie um Mock para o retorno da API](#3---Crie-um-Mock-para-o-retorno-da-API)
-    - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4---Crie-funções-no-arquivo-test/setupTeardown.spec.js)
+    - [2 - Crie um "Mock" no arquivo test/mockFunctions.spec.js](#2---crie-um-mock-no-arquivo-testmockfunctionsspecjs)
+    - [3 - Crie um Mock para o retorno da API](#3---crie-um-mock-para-o-retorno-da-api)
+    - [4 - Crie funções no arquivo test/setupTeardown.spec.js](#4---crie-funções-no-arquivo-testsetupteardownspecjs)
 - [Depois de terminar o desenvolvimento (opcional)](#depois-de-terminar-o-desenvolvimento-opcional)
 - [Revisando um pull request](#revisando-um-pull-request)
 - [Avisos finais](#avisos-finais)
@@ -67,9 +67,7 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
 
   - Projeto individual.
 
-  - Serão dois dias de projeto.
-
-  - Data de entrega para avaliação final do projeto: `DD/MM/YYYY - 14:00h`.
+  - Data de entrega para avaliação final do projeto: `28/05/2021 - 14:00h`.
 
 ---
 
@@ -78,9 +76,11 @@ Lembre-se também de **não modificar** os describes dos tests na pasta `test`. 
 ## Antes de começar a desenvolver
 
 1. Clone o repositório
-  * `git clone https://github.com/tryber/sd-011-project-jest.git`.
+  * `git clone git@github.com:tryber/sd-011-project-jest.git`.
   * Entre na pasta do repositório que você acabou de clonar:
     * `cd sd-011-project-jest`
+  * Instale as dependências
+    * `npm install`
 
 2. Crie uma branch a partir da branch `master`
   * Verifique que você está na branch `master`
@@ -220,8 +220,8 @@ Para **"entregar"** seu projeto, siga os passos a seguir:
 
 * Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas
   * No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**
-  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**
-  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-00`
+  * No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário** ou clique em **assign yourself**
+  * No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-11`
 
 ---
 
@@ -237,7 +237,7 @@ Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-eng
 
 Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
 
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://bit.ly/2OfLJPn)
+Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH#cohort_name=Turma%2011)
 
 O avaliador automático não necessariamente avalia seu projeto na ordem em que os requisitos aparecem no readme. Isso acontece para deixar o processo de avaliação mais rápido. Então, não se assuste se isso acontecer, ok?
 
