@@ -18,6 +18,10 @@ describe('o retorno do telefonema', () => {
     });
   });
   test('ocupado', () => {
-    // Escreva seu código aqui
+    expect.hasAssertions();
+
+    return answerPhone(false).catch((data) => {
+      expect(data).toEqual(new Error('Infelizmente não podemos atender...'));
+    });
   });
 });
